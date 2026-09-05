@@ -20,7 +20,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
 nav ul li{
@@ -39,14 +39,14 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #a4747c;
+    background-color: #ff0018;
     position: absolute;
     left: 0;
     bottom: -6px;
     transition: 0.5s
 }
 nav ul li a:hover{
-    color: #a4747c;
+    color: #ff0018;
 }
 nav ul li a:hover::after{
     width: 100%
@@ -63,7 +63,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #a4747c;
+    color: #ff0018;
 }
 .dynamic-txt{
     width: 100%;
@@ -85,5 +85,5 @@ nav ul li a:hover::after{
     padding: 30px -20px 20px 40px;
   }
 .social_icon:hover{
-    color: #a4747c;
+    color: #ff0018;
   }
