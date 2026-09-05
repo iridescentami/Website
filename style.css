@@ -27,7 +27,7 @@ nav{
     flex-wrap: wrap;
 }
 nav img{
-    transform: scale(.10);
+    transform: scale(.25);
     transform-origin: top-left;
 }
 nav ul li{
