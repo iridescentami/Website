@@ -27,7 +27,7 @@ nav{
     flex-wrap: wrap;
 }
 nav img{
-    width: 140px;
+    width: auto;
     height: 140px;
 }
 nav ul li{
