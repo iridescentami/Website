@@ -27,7 +27,8 @@ nav{
     flex-wrap: wrap;
 }
 nav img{
-    transform: scale(.10)
+    transform: scale(.10);
+    transform-origin: top-left;
 }
 nav ul li{
     display: inline-block;
