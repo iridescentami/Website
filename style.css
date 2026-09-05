@@ -27,8 +27,8 @@ nav{
     flex-wrap: wrap;
 }
 nav img{
-    transform: scale(.25);
-    transform-origin: top-left;
+    width: auto;
+    height: auto;
 }
 nav ul li{
     display: inline-block;
