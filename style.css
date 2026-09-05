@@ -26,6 +26,9 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+nav img{
+    transform: scale(.10)
+}
 nav ul li{
     display: inline-block;
     list-style: none;
